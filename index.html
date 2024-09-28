@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAGAgs</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="logo"><h1>The Haus of Us</h1></div>
+                <ul class="nav-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./service.html">Services</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn"><img src="./menu.svg" alt=""></div>
+            </nav>
+
+            <div class="header-content">
+                <h1>The Haus of Us</h1>
+                <p>Create a Design</p>
+                <button class="primary-btn">EXPLORE</button>
+            </div>
+        </div>
+    </section>  
+    <section id="services" class="container">
+        <div class="service">
+            <img src="loe.jpg" alt="">
+            <h1>Ocassion Design</h1>
+            <p>Occasion design focuses on crafting personalized experiences for special moments such as weddings, birthdays, and anniversaries. It involves curating a specific theme, ambiance, and setting that aligns with the occasion’s purpose and the host’s preferences, creating a memorable and meaningful atmosphere.</p>
+            <hr> <!-- Horizontal Rule-->
+        </div>
+        <div class="service">
+            <img src="ha.jpg" alt="">
+            <h1>Event Design</h1>
+            <p>Event design is the art of planning and executing visually impactful environments for events like corporate gatherings, galas, and conferences. It encompasses everything from spatial layout to décor, lighting, and branding, ensuring a cohesive and immersive experience that aligns with the event's objectives.</p>
+            <hr> <!-- Horizontal Rule-->
+        </div>
+        <div class="service">
+            <img src="sad.jpg" alt="">
+            <h1>Interior Design</h1>
+            <p>Interior design is the practice of enhancing the interior spaces of homes, offices, or commercial spaces to achieve a healthier and more aesthetically pleasing environment. It involves selecting furniture, color schemes, lighting, and materials to create functional, visually appealing, and comfortable spaces that reflect the client’s style and needs.</p>
+            <hr> <!-- Horizontal Rule-->
+        </div>
+    </section>
+    <hr> <!-- Horizontal Rule--> 
+    <section id="about" class="container">
+        <div class="about-content">
+            <h1>About us</h1>
+            <p>The Haus of us was founded by a group of students that collaborated with each other to use our
+                skills and knowledge with a purpose to serve people.
+                We developed and modified new ideas to make our services better. We are confidently saying
+                that our The Haus of us was founded by a group of students that collaborated with each other to
+                use our skills and knowledge with a purpose to serve people.
+                And our customers can request a design that they want to be made so that it matches what a
+                customer wants, when we improve the making of designs for the client to like so that they are
+                not disappointed with the work.</p>
+        </div>
+        <div class="about-img">
+            <img src="saaa.jpg" alt="">
+        </div>
+    </section>
+    <hr> <!-- Horizontal Rule-->
+    <section id="talk-to-us">
+        <div class="talk-to-us-content">
+            <h1>TALK TO US</h1>
+            <p>hahdahdhajhjahdajdhjahajdhadjadhajdh</p>
+            <button class="primary-btn">Get in Touch</button>
+        </div>
+    </section>
+    <hr> <!-- Horizontal Rule-->
+    <footer>
+        <ul class="footerlinks">
+            <li><a href="./index.html">./Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./service.html">Services</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+        <h1 class="logo">The Haus Of Us</h1>
+        <p>2213123131</p>
+    </footer>
+    <hr> <!-- Horizontal Rule-->
+    <script>
+        const menuBtn = document.querySelector('menu-btn')
+        const navLinks = document.querySelector('nav-links')
+
+        menuBtn.addeEventlistener('click', function(){
+            navLinks.classlist.toggle('active')
+        })
+        </script>
+</body>
+</html>
